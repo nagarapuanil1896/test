@@ -16,6 +16,7 @@ export class AppComponent implements AfterViewInit {
     loginVal!: ElementRef;
     @ViewChild('welcomeEl')
     welcomeVal!: ElementRef;
+    title: any;
 
     constructor(private loginService: LoginService, private router: Router, private renderer: Renderer2) {
                
